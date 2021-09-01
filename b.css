@@ -1,0 +1,190 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+    /* border: 2px solid red; */
+    height: 19vh;
+    background:linear-gradient(to right , #f8ae95,#d46e5c);
+    grid-gap: 4rem;
+    position: sticky;
+}
+#navbar{
+    position: sticky;
+    
+}
+.box1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rampart One', cursive;
+    margin-left: 2vw;
+    margin-top: 1vh;
+   font-size: 3vw;
+/* border: 2px solid black; */
+}
+.box2{
+    padding: 1vw;
+    justify-content: center;
+}
+.navbarul{
+display: flex;
+
+}
+.item{
+    list-style: none;
+    padding: 0rem 1.5vw;
+    font-size: 1.7vw;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+.item:hover{
+    transform: scale(2);
+}
+.item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.item a:hover{
+    color: blue;
+   
+}
+
+.home{
+    /* border: 2px solid red; */
+    background-color: #f3ddd9;
+    /* height: 150vh; */
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#grid1{
+    margin-top: 3vh;
+    
+    text-align: center;
+    /* border: 2px solid red; */
+}
+#grid2{
+    /* border: 2px solid red; */
+    margin-top: 25vh;
+}
+
+#grid3{
+    /* border: 2px solid red; */
+    margin-top:35vh ;
+}
+
+.greet{
+    font-size: 8vw;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Rampart One', cursive;
+}
+.pp{
+    width: 35vw;
+    height: 35vw;
+}
+.name0{
+    font-size: 3vw;
+}
+.name1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+}
+.designation{
+    color: rgb(52, 52, 248);
+    font-size: 3vw;
+    
+}
+
+.about{
+    border: 2px solid #f3ddd9;
+    background-color: #f3ddd9;
+    /* background:linear-gradient(to right , #f3ddd9,#d46e5c) */
+}
+.habout{
+    background:linear-gradient(to right , #f3ddd9,#d46e5c);
+    font-size: 7vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border:2px solid blue; */
+}
+.pabout{
+    font-size: 3vw;
+    padding: 3vw ;
+}
+.college{
+    text-decoration: none;
+}
+
+.skills{
+    border: 2px solid #f3ddd9;
+    background-color: #f3ddd9;
+}
+.hskill{
+    background:linear-gradient(to right , #f3ddd9,#d46e5c);
+    font-size: 7vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pskill{
+    font-size: 3vw;
+    padding: 3vw ;
+}
+
+.contact{
+    border: 2px solid #f3ddd9;
+    background-color: #f3ddd9;
+}
+.hcontact{
+    background:linear-gradient(to right , #f3ddd9,#d46e5c);
+    font-size: 7vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pcontact{
+    font-size: 3vw;
+    padding: 3vw ;
+    font-family: 'Dancing Script', cursive;
+}
+.email{
+text-decoration: none;
+color:rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    padding: 1vw;
+    border: 0.3rem solid black ;
+    font-size: 2vw;
+   margin-left: 4vw;
+    border-radius: 1vw;
+    transition: all 0.3s ease-in-out;
+}
+.email2{
+    transition: all 0.3s ease-in-out;
+}
+.email2:hover{
+    transform:scale(1.1)
+}
+.email:hover{
+    color: rgb(236, 236, 236);
+    background-color: #0501e9;
+    
+}
+.links{
+    margin: 6vw 0;
+    background:linear-gradient(to right , #f3ddd9,#d46e5c);
+    text-align:center;
+
+    height: 4vw;
+    padding: 2vw;
+
+}
+.links2{
+    padding: 0 1vw;
+}
+.linksimg{
+    height: 4vw;
+    width: 4vw;
+}
