@@ -9,6 +9,7 @@
 }
 #navbar{
     position: sticky;
+    top:0%;
     
 }
 .box1{
@@ -187,4 +188,19 @@ color:rgb(255, 255, 255);
 .linksimg{
     height: 4vw;
     width: 4vw;
+}
+
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 10vh;
+    }
+    #grid2{
+        margin-top: 4vh;
+        
+    }
+    .pp{
+        height: 40vw;
+        width: 36vw;
+    }
 }
