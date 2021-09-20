@@ -1,0 +1,331 @@
+body[data-theme="light"] {  
+    --color-1: #f8ae95;  
+    --color-2: #d46e5c;  
+    --color-3: rgb(255, 79, 79);  
+    --color-4: #f3ddd9;  
+   }  
+   body[data-theme="dark"] {  
+    --color-1: #157575;  
+    --color-2: #157575;  
+    --color-3: hsl(0, 100%, 96%);  
+    --color-4: #002939;  
+   }  
+
+
+.navbar{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+    /* border: 2px solid red; */
+    height: 19vh;
+    background:linear-gradient(to right , var(--color-1),var(--color-2));
+    grid-gap: 4rem;
+    position: sticky;
+}
+#navbar{
+    position: sticky;
+    top:0%;
+    
+}
+.container{
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Rampart One', cursive; */
+    font-family: "Nunito";
+margin-left: 2vw;
+margin-top: -6vh;
+font-size: 2.6vw;
+/* border: 2px solid black; */
+}
+.box2{
+    padding: 1vw;
+    justify-content: center;
+}
+.navbarul{
+display: flex;
+
+}
+.item{
+    list-style: none;
+    padding: 0rem 1.5vw;
+    font-size: 1.7vw;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+.item:hover{
+    transform: scale(2);
+}
+.item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.item a:hover{
+    color: blue;
+   
+}
+
+.home{
+    /* border: 2px solid red; */
+    background-color: var(--color-4);
+    /* height: 150vh; */
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#grid1{
+    margin-top: 3vh;
+    
+    text-align: center;
+    /* border: 2px solid red; */
+}
+#grid2{
+    /* border: 2px solid red; */
+    margin-top: 25vh;
+}
+
+#grid3{
+    /* border: 2px solid red; */
+    margin-top:35vh ;
+}
+
+.greet{
+    font-size: 8vw;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Rampart One', cursive;
+}
+.pp{
+    width: 35vw;
+    height: 35vw;
+    transition: transform 0.5s ease-in-out;
+}
+.pp:hover{
+    transform: scale(1.3);
+
+}
+.name0{
+    font-size: 3vw;
+}
+.name1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+}
+.designation{
+    color: rgb(52, 52, 248);
+    font-size: 3vw;
+    
+}
+
+.about{
+    border: 2px solid var(--color-4);
+    background-color: var(--color-4);
+    /* background:linear-gradient(to right , #f3ddd9,#d46e5c) */
+}
+.habout{
+    background:linear-gradient(to right , var(--color-4),var(--color-2));
+    font-size: 7vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border:2px solid blue; */
+}
+.pabout{
+    font-size: 3vw;
+    padding: 3vw ;
+}
+.college{
+    text-decoration: none;
+}
+
+.skills{
+    border: 2px solid var(--color-4);
+    background-color: var(--color-4);
+}
+.hskill{
+    background:linear-gradient(to right , var(--color-4),var(--color-2));
+    font-size: 7vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pskill{
+    font-size: 3vw;
+    padding: 3vw ;
+}
+
+.contact{
+    border: 2px solid var(--color-4);
+    background-color: var(--color-4);
+}
+.hcontact{
+    background:linear-gradient(to right , var(--color-4),var(--color-2));
+    font-size: 7vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pcontact{
+    font-size: 3vw;
+    padding: 3vw ;
+    font-family: 'Dancing Script', cursive;
+}
+.email{
+text-decoration: none;
+color:rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    padding: 1vw;
+    border: 0.3rem solid black ;
+    font-size: 2vw;
+   margin-left: 4vw;
+    border-radius: 1vw;
+    transition: all 0.3s ease-in-out;
+}
+.email2{
+    transition: all 0.3s ease-in-out;
+}
+.email2:hover{
+    transform:scale(1.1)
+}
+.email:hover{
+    color: rgb(236, 236, 236);
+    background-color: #0501e9;
+    
+}
+.links{
+    margin: 6vw 0;
+    background:linear-gradient(to right , var(--color-4),var(--color-2));
+    text-align:center;
+
+    height: 4vw;
+    padding: 2vw;
+
+}
+.links2{
+    padding: 0 1vw;
+}
+.linksimg{
+    height: 4vw;
+    width: 4vw;
+}
+
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 10vh;
+    }
+    #grid2{
+        margin-top: 4vh;
+        
+    }
+    .pp{
+        height: 44vw;
+        width: 38vw;
+    }
+    .grid3{
+        margin-top: 7vh ;
+    
+    }
+}
+
+.theme-switcher {  
+    position: absolute;  
+    left: 20px;  
+    top: 58px;  
+   }  
+   input {  
+    width: 0;  
+    height: 0;  
+    display: none;  
+    visibility: hidden;  
+   }  
+   label {  
+    cursor: pointer;  
+    display: block;  
+    text-indent: -9999px;  
+    height: 30px;  
+    width: 60px;  
+    border-radius: 50px;  
+    background-color: rgb(255, 255, 255);  
+    transition: 0.5s ease background-color;  
+   }  
+   label::after {  
+    position: absolute;  
+    content: "";  
+    width: 20px;  
+    height: 20px;  
+    border-radius: 50px;  
+    top: 50%;  
+    left: 5px;  
+    transform: translateY(-50%);  
+    background-color: #002939;  
+    transition: 0.5s ease;  
+   }  
+   input:checked + label::after {  
+    /* left: calc(100% - 2.5px);   */
+    left: calc(100% - 25px);  
+    background-color: aliceblue;  
+   }  
+   input:checked + label {  
+    background-color: #002939;  
+    border: 2px solid whitesmoke;  
+   }  
+
+   /* :root {  
+    --var-color: var(--color-3);  
+   }  
+  */
+
+
+
+ .container h1 {  
+    
+    color: var(--color-3);  
+   
+   }  
+   .container h1::before {  
+    position: absolute;  
+    content: attr(data-text);  
+    text-shadow: 0px 0px 20px var(--color-3);  
+    filter: blur(10px) brightness(0);  
+    animation: flicker 2s linear forwards;  
+    animation-delay: 1s;  
+   }  
+
+
+   @keyframes flicker {  
+    0% {  
+     filter: blur(4px) brightness(1);  
+    }  
+    3% {  
+     filter: blur(5px) brightness(0);  
+    }  
+    6% {  
+     filter: blur(5px) brightness(0);  
+    }  
+    7% {  
+     filter: blur(5px) brightness(1);  
+    }  
+    8% {  
+     filter: blur(5px) brightness(0);  
+    }  
+    9% {  
+     filter: blur(5px) brightness(1);  
+    }  
+    10% {  
+     filter: blur(5px) brightness(0);  
+    }  
+    20% {  
+     filter: blur(5px) brightness(1);  
+    }  
+    /* 50% {  
+     filter: blur(5px) brightness(1);  
+    }  
+    99% {  
+     filter: blur(5px) brightness(0);  
+    }   */
+    100% {  
+     filter: blur(3px) brightness(1);  
+    }  
+   }  
