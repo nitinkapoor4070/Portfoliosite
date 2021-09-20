@@ -31,7 +31,7 @@ body[data-theme="light"] {
     font-family: 'Rampart One', cursive; */
     font-family: "Nunito";
 margin-left: 2vw;
-margin-top: -6vh;
+margin-top: -2vh;
 font-size: 2.6vw;
 /* border: 2px solid black; */
 }
@@ -231,8 +231,8 @@ color:rgb(255, 255, 255);
 
 .theme-switcher {  
     position: absolute;  
-    left: 20px;  
-    top: 58px;  
+    left: 2vw;  
+    top: 6.5vw;  
    }  
    input {  
     width: 0;  
@@ -244,8 +244,8 @@ color:rgb(255, 255, 255);
     cursor: pointer;  
     display: block;  
     text-indent: -9999px;  
-    height: 30px;  
-    width: 60px;  
+    height: 2vw;  
+    width: 4.5vw;  
     border-radius: 50px;  
     background-color: rgb(255, 255, 255);  
     transition: 0.5s ease background-color;  
@@ -253,11 +253,11 @@ color:rgb(255, 255, 255);
    label::after {  
     position: absolute;  
     content: "";  
-    width: 20px;  
-    height: 20px;  
+    width: 1.5vw;  
+    height: 1.5vw;  
     border-radius: 50px;  
     top: 50%;  
-    left: 5px;  
+    left: 0.3vw;  
     transform: translateY(-50%);  
     background-color: #002939;  
     transition: 0.5s ease;  
