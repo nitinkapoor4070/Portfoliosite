@@ -9,7 +9,7 @@
     <meta name="Keywoords" content="html,portfolio website,css">
     <meta name="robots" content="INDEX,FOLLOW">
     <title>PORTFOLIO WEBSITE</title>
-    <link rel="stylesheet" href="b.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
@@ -24,11 +24,13 @@
 
 </head>
 
-<body>
+<body data-theme="light">  
     <nav class="navbar" id="navbar">
-        <div class="box1">
-            NITINKAPOOR
+        <div class="container">
+            <h1 data-text="nitinkapoor">nitinkapoor</h1>
         </div>
+        
+
         <div class="box2">
             <ul class="navbarul">
                 <li class="item"><a href="#home">Home</a></li>
@@ -37,6 +39,9 @@
                 <li class="item"><a href="#contact">Let's Connect</a></li>
             </ul>
         </div>
+        <div class="theme-switcher">  
+            <input type="checkbox" id="switcher">  
+            <label for=switcher>switch</label>  
     </nav>
 
     <main class="home" id="home">
@@ -47,7 +52,7 @@
             </div>
 
             <div class="homeitem" id="grid2">
-                <img class="pp" src="profile.PNG" alt="Nitin Kapoor">
+                <img class="pp" src="img.PNG" alt="Nitin Kapoor">
             </div>
             <div class="homeitem" id="grid3">
                 <h1 class="name0">I'm <div class="name1">NITIN KAPOOR,</div>
@@ -81,11 +86,14 @@
                     <li id="item1">HTML, CSS, JS </li>
                     <li id="item2">C++</li>
                     <li id="item3">Data Structures & Algorithm</li>
-                    <li id="item4">Python</li>
+                    <li id="item4">NodeJS, express</li>
                     <li id="item5">MySQL</li>
                     <li id="item6">Arduino</li>
-                    <li id="item7">MicrosoftExcel</li>
+                    <li id="item7">Python</li>
                 </ul>
+                A Weather Project created by me
+                <a href="https://salty-beyond-36502.herokuapp.com" target="_blank">WeatherAPI</a>
+                
             </div>
         </div>
     </div>
@@ -121,5 +129,5 @@
 
 
 </body>
-
+<script src="script.js"></script> 
 </html>
